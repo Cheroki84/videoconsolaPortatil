@@ -1,0 +1,59 @@
+/*Necesario para poder repartir los divs de los dos fondos verticalmente*/
+html, body{
+    background-color: antiquewhite;
+    margin: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+ }
+
+/*Contenedor que engloba todo el espacio que ocupa la consola, incluido el fondo*/
+ .contenedorFondoConsola{
+      background-color: rgb(240, 240, 240);
+      width: 100%;
+      height: 80%;
+      justify-content: center;
+      display: flex;
+      align-items: center;
+ }
+
+/*Contenedor que engloba toda la consola*/
+.contenedorConsola{
+    background-color: rgb(141, 218, 218);
+    width: 49.7em;
+    height: 21.5em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.contenedorFondoColores {
+    background-color: darksalmon;
+    width: 100%;
+    height: 20%;
+}
