@@ -7,6 +7,8 @@ html, body{
     flex-direction: column;
  }
 
+
+
 /*Contenedor que engloba todo el espacio que ocupa la consola, incluido el fondo*/
  .contenedorFondoConsola{
       background-color: rgb(240, 240, 240);
@@ -17,11 +19,84 @@ html, body{
       align-items: center;
  }
 
+
+
 /*Contenedor que engloba toda la consola*/
 .contenedorConsola{
-    background-color: rgb(141, 218, 218);
-    width: 49.7em;
-    height: 21.5em;
+    background-color: turquoise;
+    width: 50em;
+    height: 22em;
+    display: flex;
+    border-radius: 6.5em 0 0 6.5em;
+}
+
+/*Contenedor que engloba el joy pad izquierdo*/
+.contenedorJoyConL{
+    background-color: turquoise;
+    width: 8em;
+    height: 22em;
+    border-radius: 6.5em 0 0 6.5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.botonL{
+    background-image: url(/img/botonL.png);
+    width: 104px; 
+    height: 57px;
+    margin-left: -2px;
+    margin-top: -5px;
+}
+
+.botonMenos{
+    background-color: rgb(218, 218, 218);
+    width: 1.4em;
+    height: 0.4em;
+    margin-left: 5em;
+    margin-top: -1em;
+    box-shadow: -0.1em 0.2em 0.4em 0.05em rgb(44, 44, 44);
+}
+
+.stickIzquierdo{
+    background-color: rgb(218, 218, 218);
+    width: 3.5em;
+    height: 3.5em;
+    border-radius: 50%;
+    margin-top: 2em;
+    box-shadow: -0.1em 0.2em 0.4em 0.05em rgb(44, 44, 44);
+}
+
+
+
+/*Contenedor que engloba la pantalla completa*/
+.contenedorDisplay{
+    margin: 1em 0em;
+}
+
+.margenesDisplay{
+    background-color: rgb(20, 196, 178);
+    padding: 1em 2em;
+    border-radius: 1em;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.display{
+    background-color: rgb(51, 51, 51);
+    width: 30em;
+    height: 18em;
+}
+
+
+
+/*Contenedor que engloba el joycon derecho*/
+.contenedorJoyConR{
+    background-color: rgb(26, 197, 26);
+    width: 8em;
+    height: 22em;
 }
 
 
@@ -42,16 +117,7 @@ html, body{
 
 
 
-
-
-
-
-
-
-
-
-
-
+/*Contenedor que engloba todo el espacio que ocupan los botones para los colores, incluido el fondo-->*/
 .contenedorFondoColores {
     background-color: darksalmon;
     width: 100%;
