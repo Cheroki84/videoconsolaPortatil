@@ -27,7 +27,7 @@ html, body{
     width: 50em;
     height: 22em;
     display: flex;
-    border-radius: 6.5em 0 0 6.5em;
+    border-radius: 6.5em 6.5em 6.5em 6.5em;
 }
 
 /*Contenedor que engloba el joy pad izquierdo*/
@@ -52,11 +52,11 @@ html, body{
 
 .botonMenos{
     background-color: rgb(218, 218, 218);
-    width: 1.4em;
-    height: 0.4em;
+    width: 1.2em;
+    height: 0.3em;
     margin-left: 5em;
     margin-top: -1em;
-    box-shadow: -0.1em 0.2em 0.4em 0.05em rgb(44, 44, 44);
+    box-shadow: 0em 0em 0.2em 0.02em rgb(44, 44, 44);
 }
 
 .stickIzquierdo{
@@ -75,6 +75,11 @@ html, body{
     margin-top: 3em;
     border-radius: 0.3em 0.3em 0 0;
     box-shadow: 0em -0.1em 0.2em 0.1em black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(182, 182, 182);
+    
 }
 
 .crucetaDerecha{
@@ -84,6 +89,10 @@ html, body{
     margin-left: 3em;
     border-radius: 0 0.3em 0.3em 0;
     box-shadow: 0.1em 0em 0.2em 0.1em black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(182, 182, 182);
 }
 
 .crucetaAbajo{
@@ -92,6 +101,10 @@ html, body{
     width: 1.5em;
     border-radius: 0 0 0.3em 0.3em;
     box-shadow: 0em 0.1em 0.2em 0.1em black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(182, 182, 182);
 }
 
 .crucetaIzquierda{
@@ -102,6 +115,10 @@ html, body{
     margin-left: -3em;
     border-radius: 0.3em 0 0 0.3em;
     box-shadow: -0.1em 0em 0.2em 0.1em black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(182, 182, 182);
     
 }
 
@@ -119,7 +136,7 @@ html, body{
     margin-top: 3.6em;
     margin-left: 5em;
     border-radius: 0.2em;
-    box-shadow: 0em 0em 0.2em 0.05em rgb(44, 44, 44);
+    box-shadow: 0em 0em 0.1em 0.05em rgb(44, 44, 44);
 }
 
 
@@ -147,16 +164,140 @@ html, body{
 
 /*Contenedor que engloba el joycon derecho*/
 .contenedorJoyConR{
-    background-color: rgb(26, 197, 26);
+    background-color: turquoise;
     width: 8em;
     height: 22em;
+    border-radius: 0em 6.5em 6.5em 0em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.botonR{
+    background-image: url(/img/botonR.png);
+    width: 104px;
+    height: 57px;
+    margin-right: -2px;
+    margin-top: -5px;
+}
+
+.botonMas{
+    background-color: turquoise;
+    height: 1.1em;
+    width: 1.1em;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    margin-right: 5em;
+    margin-top: -1.4em;
+}
+
+.botonMasArriba{
+    background-color: rgb(218, 218, 218);
+    box-shadow: 0em -0.1em 0.2em 0.02em rgb(44, 44, 44);
+}
+
+.botonMasIzquierda{
+    background-color: rgb(218, 218, 218);
+    box-shadow: -0.1em 0em 0.2em 0.02em rgb(44, 44, 44);
+}
+
+.botonMasCentro{
+    background-color: rgb(218, 218, 218);
+}
+
+.botonMasDerecha{
+    background-color: rgb(218, 218, 218);
+    box-shadow: 0.1em 0em 0.2em 0.02em rgb(44, 44, 44);
+}
+
+.botonMasAbajo{
+    background-color: rgb(218, 218, 218);
+    box-shadow: 0em 0.1em 0.2em 0.02em rgb(44, 44, 44);
+}
+
+.botonesXABY{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: gray;
 }
 
 
+.botonX{
+    background-color: rgb(218, 218, 218);
+    height: 1.8em;
+    width: 1.8em;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1em;
+    margin-left: 1em;
+    box-shadow: 0em 0em 0.2em 0.1em rgb(44, 44, 44);
+}
 
+.botonA{
+    background-color: rgb(218, 218, 218);
+    height: 1.8em;
+    width: 1.8em;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 3em;
+    box-shadow: 0em 0em 0.2em 0.1em rgb(44, 44, 44);
 
+}
 
+.botonB{
+    background-color: rgb(218, 218, 218);
+    height: 1.8em;
+    width: 1.8em;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 1em;
+    box-shadow: 0em 0em 0.2em 0.1em rgb(44, 44, 44);
 
+}
+
+.botonY{
+    background-color: rgb(218, 218, 218);
+    height: 1.8em;
+    width: 1.8em;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -3.6em;
+    margin-left: -0.8em;
+    box-shadow: 0em 0em 0.2em 0.1em rgb(44, 44, 44);
+}
+
+.stickDerecho{
+    background-color: rgb(218, 218, 218);
+    width: 3.5em;
+    height: 3.5em;
+    border-radius: 50%;
+    margin-top: 4em;
+    margin-left: -1em;
+    box-shadow: 0em 0em 0.2em 0.2em rgb(44, 44, 44);
+}
+
+.botonHome{
+    background-color: rgb(218, 218, 218);
+    background-image: url(/img/home.png);
+    background-position: center;
+    height: 1.4em;
+    width: 1.4em;
+    margin-top: 2.4em;
+    margin-left: -5em;
+    border: 0.2em solid grey;
+    border-radius: 50%;
+    box-shadow: 0em 0em 0.1em 0.05em rgb(44, 44, 44);
+}
 
 
 
