@@ -65,9 +65,62 @@ html, body{
     height: 3.5em;
     border-radius: 50%;
     margin-top: 2em;
-    box-shadow: -0.1em 0.2em 0.4em 0.05em rgb(44, 44, 44);
+    box-shadow: 0em 0em 0.2em 0.2em rgb(44, 44, 44);
 }
 
+.crucetaArriba{
+    background-color: rgb(218, 218, 218);
+    height: 1.5em;
+    width: 1.5em;
+    margin-top: 3em;
+    border-radius: 0.3em 0.3em 0 0;
+    box-shadow: 0em -0.1em 0.2em 0.1em black;
+}
+
+.crucetaDerecha{
+    background-color: rgb(218, 218, 218);
+    height: 1.5em;
+    width: 1.5em;
+    margin-left: 3em;
+    border-radius: 0 0.3em 0.3em 0;
+    box-shadow: 0.1em 0em 0.2em 0.1em black;
+}
+
+.crucetaAbajo{
+    background-color: rgb(218, 218, 218);
+    height: 1.5em;
+    width: 1.5em;
+    border-radius: 0 0 0.3em 0.3em;
+    box-shadow: 0em 0.1em 0.2em 0.1em black;
+}
+
+.crucetaIzquierda{
+    background-color: rgb(218, 218, 218);
+    height: 1.5em;
+    width: 1.5em;
+    margin-top: -3em;
+    margin-left: -3em;
+    border-radius: 0.3em 0 0 0.3em;
+    box-shadow: -0.1em 0em 0.2em 0.1em black;
+    
+}
+
+.crucetaCentro{
+    background-color: rgb(218, 218, 218);
+    height: 1.5em;
+    width: 1.5em;
+    margin-top: -1.5em;
+}
+
+.botonSinUso{
+    background-color: rgb(218, 218, 218);
+    height: 1.4em;
+    width: 1.4em;
+    margin-top: 3.6em;
+    margin-left: 5em;
+    border-radius: 0.2em;
+    box-shadow: 0em 0em 0.2em 0.05em rgb(44, 44, 44);
+}
 
 
 /*Contenedor que engloba la pantalla completa*/
