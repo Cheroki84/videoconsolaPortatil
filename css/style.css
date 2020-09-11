@@ -1,6 +1,6 @@
 /*Necesario para poder repartir los divs de los dos fondos verticalmente*/
 html, body{
-    background-color: antiquewhite;
+    background-color: rgb(240, 240, 240);
     margin: 0;
     height: 100%;
     display: flex;
@@ -166,11 +166,41 @@ html, body{
     box-shadow: inset 0 0 0.5em 0.2em rgb(56, 117, 128);
 }
 
-.display{
-    background-color: rgb(51, 51, 51);
+.displayMasHomeFondo{
     background-image: url(/img/displayTurquesa.jpg);
+}
+
+/*.displayMasHome{
+    cursor: pointer;
+}*/
+
+.displayMasHome:active{
+    transition: 5s;
+    opacity: 0;
+}
+
+.display{
+    background-color: rgb(37, 37, 37);
     width: 30em;
     height: 18em;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.homeEnciende{
+    background-color: rgb(218, 218, 218);
+    background-image: url(/img/home.png);
+    background-position: center;
+    height: 1.4em;
+    width: 1.4em;
+    margin-right: -37em;
+    margin-top: 16em;
+    border: 0.2em solid grey;
+    border-radius: 50%;
+    box-shadow: 0em 0em 0.1em 0.05em rgb(44, 44, 44);
+    z-index: 1;
+    cursor: pointer;
 }
 
 
@@ -244,7 +274,6 @@ html, body{
     color: gray;
 }
 
-
 .botonX{
     background-color: rgb(218, 218, 218);
     height: 1.8em;
@@ -313,7 +342,7 @@ html, body{
 }
 
 .botonHome{
-    background-color: rgb(218, 218, 218);
+    background-color:turquoise;
     background-image: url(/img/home.png);
     background-position: center;
     height: 1.4em;
@@ -326,9 +355,12 @@ html, body{
     cursor: pointer;
 }
 
-.botonHome:active{
-    background-color: turquoise;
-    transition: 1s;
+
+.mantenClic{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
 }
 
 
