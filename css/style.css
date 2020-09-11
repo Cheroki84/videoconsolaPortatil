@@ -44,7 +44,7 @@ html, body{
 
 
 .botonL{
-    background-image: url(/img/botonL.png);
+    background-image: url(/../img/botonL.png);
     width: 104px; 
     height: 57px;
     margin-left: -2px;
@@ -167,7 +167,7 @@ html, body{
 }
 
 .displayMasHomeFondo{
-    background-image: url(/img/displayTurquesa.jpg);
+    background-image: url(/../img/displayTurquesa.jpg);
 }
 
 /*.displayMasHome{
@@ -190,7 +190,7 @@ html, body{
 
 .homeEnciende{
     background-color: rgb(218, 218, 218);
-    background-image: url(/img/home.png);
+    background-image: url(/../img/home.png);
     background-position: center;
     height: 1.4em;
     width: 1.4em;
@@ -217,7 +217,7 @@ html, body{
 }
 
 .botonR{
-    background-image: url(/img/botonR.png);
+    background-image: url(/../img/botonR.png);
     width: 104px;
     height: 57px;
     margin-right: -2px;
@@ -343,7 +343,7 @@ html, body{
 
 .botonHome{
     background-color:turquoise;
-    background-image: url(/img/home.png);
+    background-image: url(/../img/home.png);
     background-position: center;
     height: 1.4em;
     width: 1.4em;
